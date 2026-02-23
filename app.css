@@ -71,14 +71,10 @@ h3{
       flex-direction: column;
       gap: 25px;
     }
-
-    /* Filas */
     .fila{
       display: flex;
       gap: 20px;
     }
-
-    /* Columnas */
     .col{
       flex: 1;
       display: flex;
@@ -92,8 +88,6 @@ h3{
       border-radius: 6px;
       object-fit: cover;
     }
-
-    /* Caja azul de info */
     .info-1{
       background: #037BC0;
       color: #fff;
@@ -210,13 +204,11 @@ h3{
   font-size: 20px;
 }
 
-/* Responsive */
 @media (max-width: 850px){
   .fila-categorias{
     flex-direction: column;
   }
 }
-
 
 footer {
         background-color: #f2f2f2;
@@ -259,13 +251,6 @@ p, a, li {
   font-family: 'Raleway', sans-serif;
   font-size: 10px;
 }
-.contenedor{
-    display: flex;
-    flex-direction: column;
-}
-.caja{
-    display: flex;
-    flex-direction: row;
-}
+
 
 
