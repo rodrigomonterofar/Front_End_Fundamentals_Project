@@ -20,7 +20,7 @@ body {
   padding: 15px 40px;
 }
 
-.logo {
+.navbar-text {
   color: black;
   font-size: 20px;
   font-weight: bold;
@@ -74,6 +74,7 @@ h3{
     .fila{
       display: flex;
       gap: 20px;
+      flex-direction: row;
     }
     .col{
       flex: 1;
