@@ -8,12 +8,13 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>   
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="app.css">
       </head>
     <body>
 
     <!-- Titulo -->
-    <h1 class ="text-center">Tienda de <span style = "color: #037bc0;" >Muebles</span></h1>
+    <h1 class ="text-center">Tienda de <span class="TEXT_TITLE">Muebles</span></h1>
     
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -132,46 +133,46 @@
     <div class="carousel-item active text-center">
       <img src="principal.jpg" class="d-block w-100 img-fluid" alt="Imagen Principal">
       <div class="carousel-caption d-none d-md-block">
-        <h5 style="font-family: 'Playfair Display', serif;">Bienvenido a nuestra tienda de muebles</h5>
-        <p style="font-family: 'Playfair Display', serif;">Encuentra los mejores muebles para tu hogar</p>
+        <h5 class="text-style">Bienvenido a nuestra tienda de muebles</h5>
+        <p class="text-style">Encuentra los mejores muebles para tu hogar</p>
       </div>
     </div>
 
     <div class="carousel-item text-center">
       <img src="producto1.jpg" class="d-block w-100 img-fluid" alt="Producto 1">
           <div class="carousel-caption d-none d-md-block">
-        <h5 style="font-family: 'Playfair Display', serif;">Bienvenido a nuestra tienda de muebles</h5>
-        <p style="font-family: 'Playfair Display', serif;">Encuentra los mejores muebles para tu hogar</p>
+        <h5 class="text-style">Bienvenido a nuestra tienda de muebles</h5>
+        <p class="text-style">Encuentra los mejores muebles para tu hogar</p>
       </div>
     </div>
 
     <div class="carousel-item text-center">
       <img src="producto3.jpg" class="d-block w-100 img-fluid" alt="Producto 3">
           <div class="carousel-caption d-none d-md-block">
-        <h5 style="font-family: 'Playfair Display', serif;">Bienvenido a nuestra tienda de muebles</h5>
-        <p style="font-family: 'Playfair Display', serif;">Encuentra los mejores muebles para tu hogar</p>
+        <h5 class="text-style">Bienvenido a nuestra tienda de muebles</h5>
+        <p class="text-style">Encuentra los mejores muebles para tu hogar</p>
       </div>
     </div>
     
     <div class="carousel-item text-center">
       <img src="producto4.jpg" class="d-block w-100 img-fluid" alt="Producto 4">
           <div class="carousel-caption d-none d-md-block">
-        <h5 style="font-family: 'Playfair Display', serif;">Bienvenido a nuestra tienda de muebles</h5>
-        <p style="font-family: 'Playfair Display', serif;">Encuentra los mejores muebles para tu hogar</p>
+        <h5 class="text-style">Bienvenido a nuestra tienda de muebles</h5>
+        <p class="text-style">Encuentra los mejores muebles para tu hogar</p>
       </div>
     </div>
     <div class="carousel-item text-center">
       <img src="producto5.jpg" class="d-block w-100 img-fluid" alt="Producto 5">
           <div class="carousel-caption d-none d-md-block">
-        <h5 style="font-family: 'Playfair Display', serif;">Bienvenido a nuestra tienda de muebles</h5>
-        <p style="font-family: 'Playfair Display', serif;">Encuentra los mejores muebles para tu hogar</p>
+        <h5 class="text-style">Bienvenido a nuestra tienda de muebles</h5>
+        <p class="text-style">Encuentra los mejores muebles para tu hogar</p>
       </div>
     </div>
     <div class="carousel-item text-center">
       <img src="producto6.jpg" class="d-block w-100 img-fluid" alt="Producto 6">
           <div class="carousel-caption d-none d-md-block">
-        <h5 style="font-family: 'Playfair Display', serif;">Bienvenido a nuestra tienda de muebles</h5>
-        <p style="font-family: 'Playfair Display', serif;">Encuentra los mejores muebles para tu hogar</p>
+        <h5 class="text-style">Bienvenido a nuestra tienda de muebles</h5>
+        <p class="text-style">Encuentra los mejores muebles para tu hogar</p>
       </div>
     </div>
 
@@ -188,23 +189,7 @@
 
 </div>
 <!-- Productos -->
-<h2 class="text-center" style="font-family: 'Playfair Display', serif;">Nuestros Productos</h2>
-<style>
-.btn-animado{
-  background-color:#8cbc00;
-  color:white;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.btn-animado:hover{
-  transform: scale(1.05);
-}
-
-.btn-animado:active{
-  transform: scale(0.95);
-  box-shadow: inset 0 3px 6px rgba(0,0,0,0.3);
-}
-</style>
+<h2 class="text-center text-style">Nuestros Productos</h2>
 
 <div class="container mt-5">
 
@@ -216,8 +201,7 @@
     </div>
 
     <!-- Información 1 -->
-    <div class="col-md-6 text-white text-center p-4 d-flex flex-column justify-content-center"
-         style="background-color:#037BC0;">
+    <div class="col-md-6 text-white text-center p-4 d-flex flex-column justify-content-center INFO-BOX">
         <h3>Producto 1</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p class="fs-4 fw-bold">$12,000</p>
@@ -242,7 +226,7 @@
 
           <!-- Información 2 -->
 
-      <div class="text-white p-4 mt-3" style="background-color:#037BC0;">
+      <div class="text-white p-4 mt-3 INFO-BOX">
 
         <h3>Producto 2</h3>
 
@@ -264,7 +248,7 @@
       <img src="producto3.jpg" class="img-fluid" alt="Producto 3">
 
       <!-- Información 3 -->
-      <div class="text-white p-4 mt-3" style="background-color:#037BC0;">
+      <div class="text-white p-4 mt-3 INFO-BOX">
         <h3>Producto 3</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <p class="fs-4 fw-bold">$12,000</p>
@@ -286,7 +270,7 @@
       <img src="producto4.jpg" class="img-fluid" alt="Producto 4">
 
       <!-- Información 4 -->
-      <div class="text-white p-4 mt-3" style="background-color:#037BC0;">
+      <div class="text-white p-4 mt-3 INFO-BOX">
 
         <h3>Producto 4</h3>
 
@@ -312,7 +296,7 @@
       <img src="producto5.jpg" class="img-fluid" alt="Producto 5">
 
       <!-- Información 5 -->
-      <div class="text-white p-4 mt-3" style="background-color:#037BC0;">
+      <div class="text-white p-4 mt-3 INFO-BOX">
 
         <h3>Producto 5</h3>
 
@@ -338,7 +322,7 @@
       <img src="producto6.jpg" class="img-fluid" alt="Producto 6">
 
       <!-- Información 6 -->
-      <div class="text-white p-4 mt-3" style="background-color:#037BC0;">
+      <div class="text-white p-4 mt-3 INFO-BOX">
 
         <h3>Producto 6</h3>
 
@@ -363,7 +347,7 @@
 <!-- Categorías -->
 <div class="container mt-5">
 
-  <h2 class="text-center mb-4" style="font-family: 'Playfair Display', serif;">Categorías de Productos</h2>
+  <h2 class="text-center mb-4 text-style">Categorías de Productos</h2>
 
   <div class="row">
 
@@ -371,7 +355,7 @@
     <div class="col-md-4 text-center">
     <img src="categoria1.jpg" class="img-fluid mb-3" alt="Oficina">
     <a href="#" class="text-decoration-none text-dark">
-    <h3>Oficina</h3>
+    <h3 class="text-style">Oficina</h3>
     </a>
     </div>
 
@@ -379,7 +363,7 @@
     <div class="col-md-4 text-center">
     <img src="categoria2.jpg" class="img-fluid mb-3" alt="Hogar">
     <a href="#" class="text-decoration-none text-dark">
-    <h3>Hogar</h3>
+    <h3 class="text-style">Hogar</h3>
     </a>
 
     </div>
@@ -388,38 +372,19 @@
     <div class="col-md-4 text-center">
     <img src="categoria3.jpg" class="img-fluid mb-3" alt="Cocina">
     <a href="#" class="text-decoration-none text-dark">
-    <h3>Cocina</h3>
+    <h3 class="text-style">Cocina</h3>
     </a>
     </div>
   </div>
 </div>
-<style>
 
-footer{
-  background-color:#f2f2f2;
-  padding:40px 0;
-}
-
-.footer-link{
-  color:black;
-  text-decoration:none;
-  margin:5px 0;
-  transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.footer-link:hover{
-  color:#037BC0;
-  transform: translateY(-3px);
-}
-
-</style>
 <footer class="mt-5">
   <div class="container">
   <div class="row text-center">
 
       <!-- Categorías -->
       <div class="col-md-4">
-      <h3>Categorías</h3>
+      <h3 class="text-style">Categorías</h3>
       <nav class="d-flex flex-column">
           <a href="#" class="footer-link">Cocina</a>
           <a href="#" class="footer-link">Oficina</a>
@@ -434,7 +399,7 @@ footer{
 
       <!-- Sobre nosotros -->
       <div class="col-md-4">
-        <h3>Sobre nosotros</h3>
+        <h3 class="text-style">Sobre nosotros</h3>
         <nav class="d-flex flex-column">
           <a href="#" class="footer-link">Nuestra historia</a>
           <a href="#" class="footer-link">Misión, visión y valores</a>
@@ -447,7 +412,7 @@ footer{
 
       <!-- Soporte -->
       <div class="col-md-4">
-        <h3>Soporte</h3>
+        <h3 class="text-style">Soporte</h3>
         <nav class="d-flex flex-column">
           <a href="#" class="footer-link">Preguntas frecuentes</a>
           <a href="#" class="footer-link">Ayuda en línea</a>
